@@ -1,0 +1,50 @@
+body{
+    background-image: url(Images/table.jpg);
+    background-size: cover;
+    color: aliceblue;
+    text-align: center;
+    min-width: 300px;
+    min-height: 300px;
+    
+}
+h1{
+    color: goldenrod;
+
+}
+button{
+    color: #016f32;
+    width: 130px;
+    height: 50px;
+    background: goldenrod;
+    margin-top: 10px;
+    text-align: center; 
+    font-size:80%;   
+}
+.btnImg{
+    height: 20px;
+}
+#results{
+    font-style: italic;
+    font-family:'Permanent Marker',cursive;
+}
+h3{
+    color: cyan;
+}
+h4{
+    color: rgb(67, 25, 68);
+    font-size: large;
+}
+p{
+    color: aliceblue;
+    font-style: italic;
+    font-size: medium;
+    font-weight: bold;
+}
+.btn {
+    /* size: 30px; */
+    width: 50px;
+    height: 30px;
+    outline:aqua;
+    border-color: aqua;
+    background: none;
+}

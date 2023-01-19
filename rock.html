@@ -1,0 +1,46 @@
+<html>
+    <body>
+        <link rel="stylesheet" href="index.css">
+        <h1> Rock Paper Scisors</h1>
+        <hr>
+        <p>pick your option</p>
+        <div style="display: flex; justify-content:center">
+            <div>
+                You
+                <h3 id="player"> 0 </h3>
+            </div>
+            <div style="padding-inline: 35px;">
+                Draws
+                <h3 id="draw"> 0 </h3>
+                
+            </div>
+            <div>
+                Comp
+                <h3 id="comp"> 0 </h3>
+                
+            </div>
+        </div>
+        <div>
+            <button id = "rock" >
+            <img class="btnImg" src="images/rock.png" alt="">
+            Rock
+            </button>
+            <button id = "paper" >
+            <img class="btnImg" src="images/paper.png" alt="">
+            Paper
+            </button>
+            <button id = "scissors" >
+            <img class="btnImg" src="images/scissors.png" alt="">
+            Scissors
+            </button>
+        </div>
+        <hr>
+        <div style="justify-content:center;">
+            <h4 id="compsPick">Comps </h4>
+            <h3 id="results">HELLO </h3>
+            <button class="btn" id="clearbtn"> Clear </button>
+        </div>
+        <hr>
+        <script src="rock.js"></script>
+    </body>
+</html>
